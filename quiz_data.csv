@@ -1,0 +1,9 @@
+question,option1,option2,option3,option4,answer,explanation
+"単回帰モデルの回帰係数 $\beta_1$ を求める式は？","$\beta_1 = s_{xY} / s_{xx}$","$\beta_1 = s_{xx} / s_{xY}$","$\beta_1 = s_{xY} / s_{YY}$","$\beta_1 = \bar{Y} / \bar{x}$","$\beta_1 = s_{xY} / s_{xx}$","回帰係数 $\beta_1$ は共分散 $s_{xY}$ を説明変数の偏差平方和 $s_{xx}$ で割ったものです。"
+"回帰直線の切片 $\beta_0$ を表す正しい式は？","$\beta_0 = \bar{Y} - \beta_1 \bar{x}$","$\beta_0 = \bar{Y} + \beta_1 \bar{x}$","$\beta_0 = \bar{x} - \beta_1 \bar{Y}$","$\beta_0 = \bar{Y} / \beta_1 \bar{x}$","$\beta_0 = \bar{Y} - \beta_1 \bar{x}$","回帰直線は平均点 $(\bar{x}, \bar{Y})$ を通るため、$\bar{Y} = \beta_0 + \beta_1 \bar{x}$ を変形して求めます。"
+"残差 $e_i$ の定義として正しいものは？","$e_i = Y_i - y_i$","$e_i = y_i - \bar{Y}$","$e_i = Y_i - \bar{Y}$","$e_i = (Y_i - y_i)^2$","$e_i = Y_i - y_i$","残差は実際の観測値 $Y_i$ と回帰式による予測値 $y_i$ の差です。"
+"残差平方和 $v_e$ を $s_{YY}$ と $s_{xY}$ を用いて表すと？","$v_e = n s_{YY} - s_{xY}^2 / s_{xx}$","$v_e = s_{YY} + s_{xY}$","$v_e = n s_{YY} - s_{xx}$","$v_e = s_{YY} / s_{xx}$","$v_e = n s_{YY} - s_{xY}^2 / s_{xx}$","総変動 $n s_{YY}$ から回帰変動 $s_{xY}^2 / s_{xx}$ を引いたものが残差平方和です。"
+"変動の分解の式として正しいものは？（$v_Y$:総変動、$v_R$:回帰変動、$v_e$:残差平方和）","$v_Y = v_R + v_e$","$v_R = v_Y + v_e$","$v_e = v_Y + v_R$","$v_Y = v_R - v_e$","$v_Y = v_R + v_e$","全変動は、回帰で説明できる変動と、説明できない残差の和で構成されます。"
+"2群の判別分析における共通共分散行列 $\Sigma$ の分母（自由度）は？","$m + n - 2$","$m + n$","$m + n - 1$","$m + n + 2$","$m + n - 2$","2つの群の平均を推定するために自由度がそれぞれ1ずつ計2失われるためです。"
+"線形判別関数における判定基準（境界）の式は？","$(\mu_1 - \mu_2)' \Sigma^{-1} x - \frac{\mu_1 + \mu_2}{2} \ge 0$","$(\mu_1 + \mu_2)' \Sigma^{-1} x \ge 0$","$(\mu_1 - \mu_2)' x \ge 0$","$\Sigma^{-1} (x - \mu_1) \ge 0$","$(\mu_1 - \mu_2)' \Sigma^{-1} x - \frac{\mu_1 + \mu_2}{2} \ge 0$","マハラノビス距離に基づき、2群の中間点からの距離で判別を行います。"
+"標本偏差平方和 $s_{xx}$ の定義式は？","$s_{xx} = \frac{1}{n} \sum (x_i - \bar{x})^2$","$s_{xx} = \sum (x_i - \bar{x})$","$s_{xx} = \frac{1}{n} \sum x_i$","$s_{xx} = \sqrt{\sum (x_i - \bar{x})^2}$","$s_{xx} = \frac{1}{n} \sum (x_i - \bar{x})^2$","偏差の二乗を平均したものが偏差平方和（標本分散）です。"
